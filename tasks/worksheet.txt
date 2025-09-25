@@ -1,0 +1,67 @@
+task1
+Find out what type of hash in task1
+Hash1.txt hash type: 
+Hash2.txt hash type: 
+Hash3.txt hash type: 
+Hash4.txt hash type: 
+Hash5.txt hash type: 
+
+Crack the hash
+Hash1.txt: 
+Hash2.txt: 
+Hash3.txt: 
+Hash4.txt: 
+Hash5.txt: 
+
+
+task2
+
+A FBI agaent has found a random hash with an important document in it.
+It is your job to crack it with the two wordlist in the github!
+
+attack1.txt hash type:
+attack1.txt attack type:
+attack1.txt password: 
+
+
+attack2.txt hash type:
+attack2.txt attack type:
+attack2.txt password: 
+
+
+
+A pen tester has found out the first words to a password being "cyber".
+He knows that after the password it is a year.
+With this information crack the password!
+
+attack3.txt hash type:
+attack3.txt attack type:
+attack3.txt password: 
+
+
+I have made a very insecure password that can be found within this room but it has a speical character at the end of it.
+Use hashcat to find out what this password.
+
+attack4.txt hash type:
+attack4.txt attack type:
+attack4.txt password: 
+
+
+task3
+
+My enginers have found that a gamer made a insecure password.
+This password is in the Games.txt wordlist and ends with 4 digits.
+Crack the password!
+
+attack1.txt hash type:
+attack1.txt attack type:
+attack1.txt password: 
+
+
+A souls like player made a password with within the Games.txt list.
+He deleted the first word in one of the games from the list.
+This word has one upercase letter and four lowercase letters.
+
+attack1.txt hash type:
+attack1.txt attack type:
+attack1.txt password: 

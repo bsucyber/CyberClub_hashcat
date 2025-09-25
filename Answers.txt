@@ -1,0 +1,61 @@
+task1
+hash1.txt=GoldenEye 007
+format=MD5(0)
+attack=0
+wordlist=Games.txt
+
+hash2.txt=Half-Life
+format=MD5(0)
+attack=0
+wordlist=Games.txt
+
+hash3.txt=Super Mario 64
+format=SHA2-256(1400)
+attack=0
+wordlist=Games.txt
+
+hash4.txt=Horizon Zero Dawn
+format=SHA-1(100)
+attack=0
+wordlist=Games.txt
+
+hash5.txt=Portal 2
+format=Whirlpool(6100)
+attack=0
+wordlist=Games.txt
+
+
+task2
+attack1.txt=P.T.123
+format=MD5(0)
+attack=1
+wordlist=Games.txt, funList.txt
+
+attack2.txt=passBloodborne
+format=NTLM(1000)
+attack=1
+wordlist=Games.txt, funList.txt
+
+attack3.txt=cyber2025
+format=MD5(0)
+attack-3
+word+mask='cyber?d?d?d?d'
+
+attack4.txt=Pa$$w0rd!
+format=MD5(0)
+attack=3
+mask=?u?l?s?s?l?d?l?l?s
+
+
+task3
+attack-6.txt=Max Payne2001
+format=SHA2-512(1700)
+attack=6
+wordlist=Games.txt
+mask=?d?d?d?d
+
+attack-7.txt=EldenRing
+format=Whirlpool(6100)
+attack=7
+wordlist=Games.txt
+mask=?u?l?l?l?l
